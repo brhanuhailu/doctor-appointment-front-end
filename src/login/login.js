@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import "./login.css";
+import React, { useState } from 'react';
+import './login.css';
 
 const LoginForm = () => {
-  const [username, setUsername] = useState("");
+  const [username, setUsername] = useState('');
 
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
@@ -14,7 +14,7 @@ const LoginForm = () => {
     // You can send an API request to your backend for authentication
 
     // Clear the username input field after submission
-    setUsername("");
+    setUsername('');
   };
 
   return (
